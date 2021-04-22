@@ -1,0 +1,36 @@
+### GET
+http://localhost:5555/Karasuno/
+
+### Post
+POST http://localhost:5555/Karasuno
+Content-Type: application/json
+
+{
+    "id": 7,
+    "nombre": "Sugawara Koshi",
+    "posición": "Colocador"
+}
+
+
+### Delete
+
+DELETE http://localhost:5555/Karasuno/8
+
+
+### Update
+
+PUT http://localhost:5555/Karasuno/7
+Content-Type: application/json
+
+{
+    "id":"",
+    "nombre": "Tanaka Ryunosuke",
+    "posición": "Rematador"
+}
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+{
+  "Karasuno": [
+    {
+      "id": 1,
+      "nombre": "Hinata Shoyo",
+      "posición": "Bloqueador Medio"
+    },
+    {
+      "id": 2,
+      "nombre": "Kageyama Tobio",
+      "posición": "Colocador"
+    },
+    {
+      "id": 3,
+      "nombre": "Asumane Asahi",
+      "posición": "As"
+    },
+    {
+      "id": 4,
+      "nombre": "Sawamura Daichi",
+      "posición": "Capitán"
+    },
+    {
+      "id": 5,
+      "nombre": "Tsukishima Kei",
+      "posición": "Bloqueador Medio"
+    },
+    {
+      "id": 6,
+      "nombre": "Nishinoya Yu",
+      "posición": "Deidad Guardiana"
+    }
+  ],
+  "Nekoma": [
+    {
+      "id": 1,
+      "nombre": "Tetsuro Kuro",
+      "posición": "Bloqueador Medio"
+    },
+    {
+      "id": 2,
+      "nombre": "Kozume Kenma",
+      "posición": "Colocador"
+    },
+    {
+      "id": 3,
+      "nombre": "Inuoka So",
+      "posición": "Wing Spiker"
+    },
+    {
+      "id": 4,
+      "nombre": "Kai Nobuyuki",
+      "posición": "Capitán"
+    },
+    {
+      "id": 5,
+      "nombre": "Haiba Lev",
+      "posición": "Bloqueador Medio"
+    },
+    {
+      "id": 6,
+      "nombre": "Yaku Murisuke",
+      "posición": "Líbero"
+    }
+  ]
+}

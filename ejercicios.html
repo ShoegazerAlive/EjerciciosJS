@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    
+</body>
+<script>
+        const saludar = nombre => console.log(`Hola, me llamo ${nombre}`);
+        const despedirse = nombre => console.log(`Soy ${nombre} y les digo adiós`); 
+
+        saludar("Diego");
+
+        saludar("Makakikus");
+
+        despedirse("Bichi");
+        
+        despedirse("Matías");
+
+        const sumar = (a,b) => a+b
+
+        console.log(sumar(60, 40))
+        
+        const numeros = [1,2,3,4,5,6,7,8,9,10];
+
+        numeros.forEach((el,index) => {console.log(`el elemento ${el} está en la posición ${index}`)})
+
+        // FUNCIÓN PARA CONTAR ELEMENTOS DE UN ARRAY
+        
+        // contarCaracteres = str => str.length;
+        
+        //     const texto = prompt("Entra un texto: ")
+
+        //     const resultado = contarCaracteres(texto)
+
+        //     console.log(resultado);
+
+        //////
+
+        //FUNCIÓN PARA SEPARAR LETRAS DE UN STRING
+
+        // separaElementos = str => Array.from(str);
+
+        // const str = prompt("Escribe algo: ")
+
+        // const resultado = separaElementos(str)
+
+        // console.log(resultado);
+
+        // ////////
+
+        //FUNCIÓN PARA SEPARAR PALABRAS EN UN ARRAY
+
+        // separarPalabras = str => str.split(' ');
+
+        // const str = prompt ('Escribe algo: ');
+
+        // const resultado = separarPalabras(str);
+
+        // console.log(resultado);
+
+        ///////
+
+        //FUNCIÓN PARA REPETIR UNA PALABRA VARIAS VECES
+
+        // repetirFrase = str => str.repeat(num);   //EN LA PARTE ANTERIOR A LA FLECHA, SÓLO PUEDE RECIBIR UN ARGUMENTO!!!
+
+        // const str = prompt("Escribe algo: ");        
+        // const num = prompt("Escribe un numero: ");
+
+        // const resultado = repetirFrase(str, num);
+
+        // console.log(resultado);
+
+
+        ///////
+
+        // FUNCIÓN PARA DEVOLVER UN ARRAY AL REVÉS
+
+        // function reverseString(str) {
+
+        //     // Devuelve un array del string
+        //     const arrayStrings = str.split("");
+
+        //     // Coloca en reversa los elementos del array
+        //     const reverseArray = arrayStrings.reverse();
+
+        //     // Une nuevamente los elementos del array
+        //     const joinArray = reverseArray.join("");
+
+        //     // retorna el array unido.
+        //     return joinArray;
+        //     }
+
+        //     // toma el input del usuario
+        //     const string = prompt('Escribe algo: ');
+
+        //     const result = reverseString(string);
+        //     console.log(result);
+        //////////////////
+
+         // FUNCIÓN PARA SABER CUÁNTAS VECES SE REPITE UNA PALABRA DE UN STRING
+
+        // const texto = prompt("Escribe una frase: ");
+
+        // const arrText = texto.split(" ");
+
+        // const palabra = prompt("Escribe una palabra: ");
+        
+        
+        // const cuentaArray = function(arr, val){
+        //     return arr.reduce((acc, elem)  => {
+        //         return (val === elem ? acc + 1: acc)   
+        //     }, 0);
+        // };
+
+        // console.log(cuentaArray(arrText, palabra));
+
+        //////////////////
+
+        //FUNCIÓN PARA DEVOLVER SI ES UN PALÍNDROMO
+
+        // function enReversa(str) {
+
+        //     // Devuelve un array del string
+        //     const arrayStrings = str.split("");
+
+        //     // Coloca en reversa los elementos del array
+        //     const reverseArray = arrayStrings.reverse();
+
+        //     // Une nuevamente los elementos del array
+        //     const joinArray = reverseArray.join("");
+
+        //     // retorna el array unido.
+        //     return joinArray;
+        //     }
+        //     // toma el input del usuario
+        //     const string = prompt('Escribe algo: ');
+
+        //     const result = enReversa(string);
+        //     console.log(result);
+
+        //     if(enReversa(string) === string){
+        //             console.log("TRUE"); 
+        //         }else{
+        //             console.log("FALSE");
+        //         };
+
+        //////////////
+
+        // FUNCIÓN PARA QUITAR UNA PARTE DE UN STRING
+
+
+        // quitarTexto = str => str.split(texto1).join("");
+
+        // const str = prompt("Escribe algo: ");
+
+        // const texto1 = prompt("Escribe el texto que quieres quitar: ");
+
+        // const resultado = quitarTexto(str);
+
+        // console.log(resultado);
+
+
+        //////////////
+
+        // FUNCIÓN PARA OBTENER UN VALOR ALEATORIO ENTRE DOS NÚMEROS
+
+    
+        // function getRandomInt(min, max) {
+        //     min = Math.ceil(min);
+        //     max = Math.floor(max);
+        //     return Math.floor(Math.random() * (max - min) + min);
+        //     }
+
+        // const numBajo = prompt("Escribe el número más bajo: ");
+        // const numAlto = prompt("Escribe el número más alto: ");
+
+        // const resultado = getRandomInt(numBajo, numAlto);
+
+        // console.log(resultado);
+
+
+        ///////////////
+
+            //FUNCIÓN PARA NÚMERO CAPICÚA
+
+            //     function enReversa(str) {
+
+            // // Devuelve un array del string
+            // const arrayStrings = str.split("");
+
+            // // Coloca en reversa los elementos del array
+            // const reverseArray = arrayStrings.reverse();
+
+            // // Une nuevamente los elementos del array
+            // const joinArray = reverseArray.join("");
+
+            // // retorna el array unido.
+            // return joinArray;
+            // }
+            // // toma el input del usuario
+            // const string = prompt('Escribe algo: ');
+
+            // const result = enReversa(string);
+            // //console.log(result);
+
+            // if(enReversa(string) === string){
+            //         console.log("TRUE"); 
+            //     }else{
+            //         console.log("FALSE");
+            //     };
+
+            ////////////////
+
+            // FUNCIÓN PARA DEVOLVER EL FACTORIAL DE UN NÚMERO
+
+            // const numero = parseInt(prompt("Escribe un número entero: "))
+
+            // if (numero < 0) {
+            //     console.log("Error! El número escrito es menor a 0");
+            // }
+            // else if (numero == 0) {
+            //     console.log(`El factorial de 0 es 1`);
+            // }
+            // else {
+            //     let fact = 1
+            //     for(i = 1; i <= numero; i++){
+            //         fact *= i;
+            //     }
+            //     console.log(`El factorial de ${numero} es ${fact}`);
+            // }
+
+            ////////////////
+
+            //FUNCIÓN PARA ENCONTRAR UN PRIMO
+
+
+
+
+</script>
+</html>
